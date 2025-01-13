@@ -30,7 +30,7 @@ spec:
           httpGet:
             path: /liveness
             port: http
-        readinessProbe:
-          httpGet:
-            path: /rediness
-            port: http
+        # readinessProbe:
+        #   httpGet:
+        #     path: /rediness
+        #     port: http
